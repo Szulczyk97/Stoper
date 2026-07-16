@@ -1,0 +1,65 @@
+:root{
+	--rodzina: arial;
+}
+
+body{
+	min-width: 320px;
+	background-color: #BD9460;
+}
+
+#kontener{
+	width: 320px;
+	margin: auto;
+	text-align: center;
+}
+
+#naglowek{
+	font-size: 38px;
+	margin-top: 20px;
+}
+
+#wyswietlacz{
+	font-size: 46px;
+	font-family: var(--rodzina);
+	margin: 35px auto 35px auto;
+}
+
+#przyciski{
+	margin: 5px auto 5px auto;
+}
+
+#start{
+	cursor: pointer;
+}
+
+.start_i_stop, #miedzyczas{
+	height: 50px;
+	padding: 10px;
+	font-size: 26px;
+	margin: 10px;
+	border-radius: 6px;
+}
+
+.start_i_stop{
+	width: 200px;
+}
+
+#miedzyczas{
+	width: 260px;
+}
+
+#zapis_czasu{
+	width: 220px;
+	margin: 10px auto auto auto;
+}
+
+.pole_z_wynikami{
+	font-size: 32px;
+	font-family: var(--rodzina);
+}
+
+#stopka{
+	font-size: 17px;
+	font-style: italic;
+	text-shadow: 0.5px 0.5px 1px black;
+}

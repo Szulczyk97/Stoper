@@ -1,0 +1,42 @@
+<!doctype html>
+	<html lang="pl">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="author" content="Przemysław Szułczyński"/>
+			<meta name="robots" content="index, follow"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<meta name="description" content="Projekt Stoper - program umożliwiający liczenie upływającego czasu."/>
+
+			<meta property="og:type" content="website"/>
+      		<meta property="og:url" content="https://szulczyk.pl/projekt-10/stoper"/>
+      		<meta property="og:title" content="Szulczyk.pl | Projekt 10"/>
+      		<meta property="og:description" content="Stoper - Program Liczący Upływający Czas"/>
+      		<meta property="og:image" content="../favicon-512x512.webp"/>
+
+			<title>Stoper - Program Liczący Upływający Czas</title>
+			<link rel="stylesheet" media="(width >= 1350px)" href="./css_stoper/stoper_domyslne.css"/>
+			<link rel="stylesheet" media="(1000px <= width < 1350px)" href="./css_stoper/stoper_maly_komputer.css"/>
+			<link rel="stylesheet" media="(640px <= width < 1000px)" href="./css_stoper/stoper_tablet.css"/>
+			<link rel="stylesheet" media="(width < 640px)" href="./css_stoper/stoper_telefon.css"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="../favicon-touch-icon.webp"/>
+      		<link rel="icon" type="image/webp" sizes="32x32" href="../favicon-32x32.webp"/>
+      		<link rel="icon" type="image/webp" sizes="16x16" href="../favicon-16x16.webp"/>
+			<link rel="shortcut icon" href="../favicon.ico"/>
+			<script type="text/javascript" src="./skrypty_stoper/stoper.js" defer></script>
+		</head>
+			<body>
+				<div id="kontener">
+					<div id="naglowek">Stoper</div>
+
+					<div id="wyswietlacz"><span id="godziny">00</span>:<span id="minuty">00</span>:<span id="sekundy">00</span></div>
+					
+					<div id="przyciski"><input id="start" class="start_i_stop" type="button" value="Start"/> <input id="stop" class="start_i_stop" type="button" value="Stop" autocomplete="off" disabled/></div>
+
+					<div><input id="miedzyczas" type="button" value="Międzyczas" autocomplete="off" disabled/></div>
+					
+					<div id="zapis_czasu"><ol id="lista"></ol></div>
+					
+					<div id="stopka">&copy; 2025 Szulczyk - Przemysław Szułczyński</div>
+				</div>
+			</body>
+	</html>
