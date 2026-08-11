@@ -1,13 +1,13 @@
 # ***[Projekt Stoper](https://szulczyk.pl/projekt-10/stoper)***
 
 ## 🖼️ ***Zrzuty ekranu***
-![Obrazek 1](.github/ss1.webp)
+![Obrazek 1](dokumentacja/zrzuty-ekranu/ss1.webp)
 
-![Obrazek 2](.github/ss3.webp)
+![Obrazek 2](dokumentacja/zrzuty-ekranu/ss3.webp)
 
-![Obrazek 3](.github/ss9.webp)
+![Obrazek 3](dokumentacja/zrzuty-ekranu/ss9.webp)
 
-![Obrazek 4](.github/ss12.webp)
+![Obrazek 4](dokumentacja/zrzuty-ekranu/ss12.webp)
 
 <br/>
 
